@@ -1,0 +1,21 @@
+{
+  "name": "simple-limit",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node dist/test.js"
+  },
+  "keywords": [],
+  "author": "DontSleep404",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+  },
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts"
+}
